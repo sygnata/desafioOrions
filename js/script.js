@@ -1,2 +1,2 @@
-import oi from './modules/oi.js';
-oi();
+import bannerRotativo from './modules/bannerRotativo.js';
+bannerRotativo();
