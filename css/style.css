@@ -54,3 +54,25 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+h1,
+h6 {
+  text-align: center;
+}
+/* h6 {
+  border-bottom: 3px solid blue;
+  background-color: red;
+  width: 300px;
+  margin-left: 190px;
+} */
+.sublinhado {
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sublinhadoInterno {
+  background-color: #73a0d7;
+  width: 100px;
+  height: 5px;
+}
