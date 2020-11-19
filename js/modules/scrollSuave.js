@@ -12,12 +12,9 @@ export default function scrollSuave() {
       top: topo,
       behavior: 'smooth'
     })
-
   }
 
   linksInternos.forEach((link) => {
     link.addEventListener('click', scrollToSection);
   })
-
-
 }

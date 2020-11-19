@@ -76,3 +76,14 @@ h6 {
   width: 100px;
   height: 5px;
 }
+.conteudoSobre {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 20px;
+}
+.iconeSobre {
+  margin-bottom: 20px;
+}
