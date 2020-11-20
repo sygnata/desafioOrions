@@ -1,4 +1,5 @@
-import bannerRotativo from './modules/bannerRotativo.js';
 import scrollSuave from './modules/scrollSuave.js';
-bannerRotativo();
+import bannerRotativoAutomatico from './modules/bannerRotativoAutomatico.js'
+
 scrollSuave();
+bannerRotativoAutomatico();

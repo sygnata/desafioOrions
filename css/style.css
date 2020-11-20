@@ -52,6 +52,8 @@ body {
 }
 img {
   max-width: 100%;
+  align-self: center;
+  margin: 0 auto;
   height: auto;
 }
 
@@ -78,6 +80,11 @@ h6 {
   text-align: center;
   margin: 20px 20px 100px 20px;
 }
+@media (max-width: 990px) {
+  .conteudoBeneficios {
+    margin: 10px 20px 40px 20px;
+  }
+}
 .iconeBeneficios {
   margin-bottom: 20px;
 }
@@ -85,7 +92,7 @@ h5 {
   color: #808080;
 }
 p {
-  color: #b6b6b6;
+  color: #666;
 }
 .containerComoFunciona {
   background-color: #f7f7f7;
@@ -143,4 +150,31 @@ p {
 }
 .conteudoComoFunciona {
   margin-right: 8em;
+}
+.sublinhadoSobre {
+  height: 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.sublinhadoInternoSobre {
+  background-color: #73a0d7;
+  height: 8px;
+}
+
+.logotipoSobre {
+  max-width: 100%;
+  height: auto;
+  margin-left: 2em;
+}
+#sobre {
+  margin-left: 7em;
+}
+.imagem {
+  padding-left: 100px;
+}
+.tituloParceiros {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
