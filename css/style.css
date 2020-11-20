@@ -15,7 +15,7 @@ body {
   padding-right: 50px;
 }
 #btnAssociar {
-  color: #e26e11;
+  color: #a52200;
   font-weight: bold;
   background-color: #fdc018;
   min-height: 35px;
@@ -76,14 +76,74 @@ h6 {
   width: 100px;
   height: 5px;
 }
-.conteudoHome {
+.conteudoBeneficios {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  margin: 20px;
+  margin: 20px 20px 30px 20px;
 }
-.iconeHome {
+.iconeBeneficios {
   margin-bottom: 20px;
+}
+h5 {
+  color: #808080;
+}
+p {
+  color: #b6b6b6;
+}
+.containerComoFunciona {
+  background-color: #f7f7f7;
+  min-height: 100px;
+  width: 100%;
+  position: relative;
+}
+.textoComoFunciona {
+  text-align: end;
+  font-size: 1.15em;
+}
+.familia {
+  overflow: visible;
+  margin: -50px 50px -25px 0;
+}
+.familiaContainer {
+  position: relative;
+}
+.btnAssociarFamilia {
+  position: absolute;
+  font-size: 1.25em;
+  color: #fff;
+  font-weight: bold;
+  /* background-color: #fdc018; */
+  min-height: 50px;
+  border: none;
+  border-radius: 25px;
+  padding: 0 60px 0 60px;
+  cursor: pointer;
+  margin-left: -430px;
+  margin-top: 200px;
+  background: linear-gradient(
+    142deg,
+    rgba(196, 47, 49, 1) 0%,
+    rgba(104, 38, 125, 1) 46%,
+    rgba(33, 31, 181, 1) 91%
+  );
+}
+
+.sublinhadoComoFunciona {
+  height: 20px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.sublinhadoInternoComoFunciona {
+  background-color: #73a0d7;
+  width: 100px;
+  height: 5px;
+}
+.tituloComoFunciona {
+  position: absolute;
+  right: 0;
+  top: -60px;
 }
