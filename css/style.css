@@ -76,7 +76,7 @@ h6 {
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  margin: 20px 20px 30px 20px;
+  margin: 20px 20px 100px 20px;
 }
 .iconeBeneficios {
   margin-bottom: 20px;
@@ -126,17 +126,21 @@ p {
 
 .sublinhadoComoFunciona {
   height: 20px;
+  max-width: 100%;
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
 }
 .sublinhadoInternoComoFunciona {
   background-color: #73a0d7;
-  width: 100px;
-  height: 5px;
+  margin-right: -0.9em;
+  height: 8px;
 }
 .tituloComoFunciona {
   position: absolute;
-  right: 0;
+  margin-right: 8em;
   top: -60px;
+}
+.conteudoComoFunciona {
+  margin-right: 8em;
 }
